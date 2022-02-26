@@ -1,0 +1,116 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+/* the body conatiner */
+.Container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+
+}
+
+/* form inside a coantiner as parent to all divs */
+form {
+  width: 30vw;
+  position: relative;
+ min-height: 90%;
+ height:auto;
+ margin-top: 2%;
+}
+form:hover{
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  
+}
+/* work experience and smalll heading */
+.heading{
+  padding-top:6px;
+  margin-left: 65px;
+}
+
+
+/* form groups in rows and coulms divsions */
+.frm {
+  overflow: hidden;
+  width: 28vw;
+  margin: 8px;
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+  
+}
+.btn_rm {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top:13px;
+  right:4px;
+  border-radius: 10px;
+ background: none;
+
+}
+.btn_add {
+  padding:3px 2px;
+ width:20px;
+ height:20px;
+  color: white;
+  border-radius: 50%;
+  right:30px;
+  position: absolute;
+  margin-top:15px;
+background-color: #4e92f8;
+
+}
+
+
+
+input:hover{
+  border: 2px solid green;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(175, 70, 70, 0.23);
+}
+
+
+button{
+  padding-top:10px;
+  margin-left: 80px;
+  width: 20vw;
+  font-size: 1.5rem;
+  background-color: #4e92f8;
+  
+}
+#btn{
+  color: white;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all .5s;
+  margin-top: 6px;
+}
+
+
+#btn:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(175, 70, 70, 0.23);
+  color: #212121;
+}
+
+.back_link:hover {
+  font-size: 1.3rem;
+  color: goldenrod;
+  transition: all .1s;
+}
+.back_link {
+  margin-left: 13vw;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+ 
